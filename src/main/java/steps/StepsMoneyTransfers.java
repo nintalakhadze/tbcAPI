@@ -4,7 +4,7 @@ import data.Constants;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import pojo.MoneyTransferSystem;
+import data.pojo.MoneyTransferSystem;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,7 +1,7 @@
 package tests;
 
 import org.testng.annotations.Test;
-import pojo.MoneyTransferSystem;
+import data.pojo.MoneyTransferSystem;
 import steps.StepsMoneyTransfers;
 
 import java.util.List;
@@ -16,6 +16,4 @@ public class MoneyTransfersTest  {
                 .moneyTransfersApi()
                 .deserializedTransfers()
                 .getMoneyTransferSystems();
-
-
     }}
