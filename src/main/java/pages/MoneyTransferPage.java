@@ -5,11 +5,8 @@ import com.microsoft.playwright.Page;
 import data.Constants;
 
 public class MoneyTransferPage {
-    private final Page page;
-
-    public final Locator systemsSection;
-    public final Locator systemsContainer;
-    public final Locator pageBody;
+    protected Page page;
+    public Locator systemsSection, systemsContainer, pageBody;
 
     public MoneyTransferPage(Page page) {
         this.page = page;

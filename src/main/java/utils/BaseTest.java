@@ -29,19 +29,5 @@ public class BaseTest {
         page.setDefaultTimeout(15000);
     }
 
-    @AfterClass
-    public void tearDown() {
-        if (page != null) {
-            page.close();
-        }
-        if (context != null) {
-            context.close();
-        }
-        if (browser != null) {
-            browser.close();
-        }
-        if (playwright != null) {
-            playwright.close();
-        }
-    }
+
 }

@@ -5,13 +5,10 @@ import com.microsoft.playwright.Page;
 import data.Constants;
 
 public class TreasuryProductsPage {
-    private final Page page;
+    protected Page page;
 
-    public final Locator pageBody;
-    public final Locator usdText;
-    public final Locator buyText;
-    public final Locator sellText;
-    public final Locator updateTimeText;
+    public Locator pageBody,usdText, buyText, sellText, updateTimeText;
+
 
     public TreasuryProductsPage(Page page) {
         this.page = page;
